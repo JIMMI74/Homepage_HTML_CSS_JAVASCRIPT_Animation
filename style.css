@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: mediumspringgreen;
+
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+a {
+    text-decoration: none;
+    
+}
+.container {
+    padding: 1rem;
+}
+.flex_column {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem
+
+}
+.section{
+    margin-bottom: 1.5rem;
+}
+.border{
+    border: 1px solid black;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+h2{
+    font-size: 1.2em;
+    text-align:center;
+    font-weight:500;
+}
+button {
+    background-color: #18978F;
+    color:white;
+    padding:10px;
+    width:7rem;
+    border-radius: 5px;
+
+}
+#hero{
+    padding: 40px  0;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='65' height='65' patternTransform='scale(2) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M.5.5v12h12V.5H.5zm13 13v12h12v-12h-12zm-13 13v12h12v-12H.5zm26 13v12h12v-12h-12zm13 13v12h12v-12h-12z'  stroke-width='1' stroke='none' fill='hsla(258.5,59.4%,59.4%,1)'/><path d='M26.5.5v12h12V.5h-12zm0 13v12h12v-12h-12zm13 13v12h12v-12h-12zm-39 13v12h12v-12H.5zm0 13v12h12v-12H.5z'  stroke-width='1' stroke='none' fill='hsla(339.6,82.2%,51.6%,1)'/><path d='M13.5.5v12h12V.5h-12zm39 13v12h12v-12h-12zm-39 13v12h12v-12h-12zm39 0v12h12v-12h-12zm-26 26v12h12v-12h-12z'  stroke-width='1' stroke='none' fill='hsla(198.7,97.6%,48.4%,1)'/><path d='M52.5.5v12h12V.5h-12zm-13 13v12h12v-12h-12zm0 26v12h12v-12h-12zm13 0v12h12v-12h-12zm-39 13v12h12v-12h-12z'  stroke-width='1' stroke='none' fill='hsla(47,80.9%,61%,1)'/></pattern></defs><rect width='800%' height='800%' transform='translate(0,0)' fill='url(%23a)'/></svg>")
+}
+.stella{
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+    -webkit-clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.card {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    gap:3px
+
+}
+
+/*@media screen */
